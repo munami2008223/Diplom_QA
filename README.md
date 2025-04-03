@@ -33,16 +33,16 @@
 #### Подготовительный этап
 - Установить и запустить IntelliJ IDEA;
 - Установать и запустить Docker Desktop;
-- Склонировать репозиторий `git clone` [сылка на репозиторий](https://github.com/munami2008223/Diplom_QA.git)
+- Склонировать репозиторий `git clone` [ссылка на репозиторий](https://github.com/munami2008223/Diplom_QA.git)
 
 #### Запуск тестового приложения
 Запустить MySQL, PostgreSQL, NodeJS через терминал командой:
 docker-compose up
 В новой вкладке терминала запустить тестируемое приложение:
 Для MySQL:
-java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app -jar artifacts/aqa-shop.jar
+`java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app -jar artifacts/aqa-shop.jar`
 Для PostgreSQL:
-java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app -jar artifacts/aqa-shop.jar
+```java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app -jar artifacts/aqa-shop.jar```
 .
 Убедиться в готовности системы. Приложение должно быть доступно по адресу:
 http://localhost:8080/
