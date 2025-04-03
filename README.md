@@ -41,11 +41,11 @@
 docker-compose up
 ```
 В новой вкладке терминала запустить тестируемое приложение:
-[x] Для **MySQL**:
+- [x] Для **MySQL**:
 ```copy
 java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app -jar artifacts/aqa-shop.jar
 ```
-[x] Для **PostgreSQL**:
+- [x] Для **PostgreSQL**:
 ```copy 
 java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app -jar artifacts/aqa-shop.jar
 ```
