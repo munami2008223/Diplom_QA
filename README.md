@@ -37,11 +37,15 @@
 
 #### Запуск тестового приложения
 Запустить MySQL, PostgreSQL, NodeJS через терминал командой:
+```copy
 docker-compose up
+```
 В новой вкладке терминала запустить тестируемое приложение:
-Для MySQL:
-`java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app -jar artifacts/aqa-shop.jar`
-Для PostgreSQL:
+[x] Для **MySQL**:
+```copy
+java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app -jar artifacts/aqa-shop.jar
+```
+[x] Для **PostgreSQL**:
 ```copy 
 java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app -jar artifacts/aqa-shop.jar
 ```
