@@ -31,9 +31,9 @@
 
 ## Запуск приложения
 #### Подготовительный этап
-- Установить и запустить IntelliJ IDEA;
-- Установать и запустить Docker Desktop;
-- Склонировать репозиторий `git clone` [ссылка на репозиторий](https://github.com/munami2008223/Diplom_QA.git)
+> Установить и запустить IntelliJ IDEA;
+> Установать и запустить Docker Desktop;
+> Склонировать репозиторий `git clone` [ссылка на репозиторий](https://github.com/munami2008223/Diplom_QA.git)
 
 #### Запуск тестового приложения
 Запустить MySQL, PostgreSQL, NodeJS через терминал командой:
