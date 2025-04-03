@@ -23,11 +23,11 @@
 [Ссылка на Дипломное задание](https://github.com/netology-code/qa-diploma)
 
 ## Тестовая документация
-[Планирование автоматизации тестирования](https://github.com/munami2008223/Diplom_QA/blob/main/documents/Plan.md);
+[Планирование автоматизации тестирования](https://github.com/munami2008223/Diplom_QA/blob/main/documents/Plan.md)
 
-[Отчёт по итогам тестирования]()
+[Отчёт по итогам тестирования](https://github.com/munami2008223/Diplom_QA/blob/main/documents/Report.md)
 
-[Отчет по итогам автоматизации]()
+[Отчет по итогам автоматизации](https://github.com/munami2008223/Diplom_QA/blob/main/documents/Summary.md)
 
 ## Запуск приложения
 #### Подготовительный этап
