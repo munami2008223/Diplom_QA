@@ -29,7 +29,7 @@
 
 [Отчет по итогам автоматизации](https://github.com/munami2008223/Diplom_QA/blob/main/documents/Summary.md)
 
-## Запуск приложения
+### Запуск приложения
 #### Подготовительный этап
 - Установать и запустить Docker Desktop;
 - Установить и запустить IntelliJ IDE;
@@ -40,7 +40,7 @@ git clone https://github.com/munami2008223/Diplom_QA.git
 ```
 
 #### Запуск тестового приложения
-Запустить контеёнеры с MySQL, PostgreSQL, NodeJS через терминал командой:
+Запустить контейнеры с MySQL, PostgreSQL, NodeJS через терминал командой:
 ```copy
 docker-compose up
 ```
@@ -54,7 +54,7 @@ java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app -jar artifacts/aqa-
 java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app -jar artifacts/aqa-shop.jar
 ```
 
-Чтобы убедится, что приложение запущено и готово к работе, перейти по [ссылке](http://localhost:8080/)
+Чтобы убедиться, что приложение запущено и готово к работе, перейти по [ссылке](http://localhost:8080/)
 
 ### Запуск тестов
 В новой вкладке терминала запустить тесты:
@@ -76,6 +76,7 @@ gradlew clean test -Ddb.url=jdbc:postgresql://localhost:5432/app
 ```copy
 docker-compose down
 ```
+Повторить шаги по запуску тестового приложения и тестов
 
 ### Формирование отчёта о тестировании
 Для формирования отчётности через Allure ввести в окне терминала команду
