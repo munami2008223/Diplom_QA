@@ -21,4 +21,6 @@ services:
   nodejs:
     build: ./gate-simulator
     ports:
-    - '9999:9999'
+      - '9999:9999'
+
+
